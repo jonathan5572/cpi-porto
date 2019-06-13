@@ -1,9 +1,5 @@
-<nav>
-  <ul>
-  {%- for nav in collections.nav | sort(attribute="date") -%}
-    <li>
-      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
-    </li>
-  {%- endfor -%}
-  </ul>
-</nav>
+{%- for nav in collections.nav | sort(attribute="date") -%}
+<li class="dropdown-full-color dropdown-secondary">
+  <a class="nav-link {% if nav.url == page.url %}active{% endif %}" href="{{ nav.url | url }}" {% if nav.url == page.url %}data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+</li>
+{%- endfor -%}
