@@ -1,0 +1,22 @@
+<section class="container">
+	{% for resource in resourceslist | reverse %}
+		<article class="row mb-4">
+		<div class="col">
+			<h3>
+				<a href="{{ resource.url | url }}">
+					{% if resource.data.title %}
+						{{ resource.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if resource.data.summary %}
+				<p>
+					{{ resource.data.summary }}
+				</p>
+			{% endif %}
+			</div>
+		</article>
+	{% endfor %}
+</section>

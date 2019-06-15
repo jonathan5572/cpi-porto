@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
-section: page
+section: services
+permalink: /services/index.html
 ---
 				<section class="page-header page-header-modern bg-color-primary page-header-md">
 					<div class="container">
@@ -13,6 +14,9 @@ section: page
 					</div>
 				</section>
 
-<div class="container layoutContent">
+<div class="layoutContent">
 {{ layoutContent | safe }}
 </div>
+
+{% set serviceslist = collections.services %}
+{% include "components/serviceslist.njk" %}

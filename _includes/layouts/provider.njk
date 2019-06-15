@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+section: provider
+---
+				<section class="page-header page-header-modern bg-color-primary page-header-md">
+					<div class="container">
+						<div class="row">
+							<!-- // Title -->
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1>{{ title }}</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+<article class="container">
+
+  <p>
+    <small>
+      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
+    </small>
+  </p>
+
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <img src="{{ image }}" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-8">
+      <div class="layoutContent">
+        {{ layoutContent | safe }}
+      </div>    
+    </div>
+  </div>
+
+  {% if tags %}
+    <p>
+    {% for tag in tags %}
+      {%- if tag != "provider" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
+
+</article>
+
+<nav>
+  <a class="lead p-3 mb-0 d-block bg-light text-center text-dark text-decoration-none" href="{{ '/providers/' | url }}">&larr; See all Providers</a>
+</nav>

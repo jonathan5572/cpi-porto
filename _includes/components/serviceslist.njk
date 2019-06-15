@@ -1,0 +1,37 @@
+<section class="container">
+	{% for service in serviceslist | reverse %}
+		<article{% if service.url == url %} data-current="current item"{% endif %} class="row mb-4">
+			<h3>
+				<a href="{{ service.url | url }}">
+					{% if service.data.title %}
+						{{ service.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if service.data.summary %}
+				<p>
+					{{ service.data.summary }}
+				</p>
+			{% endif %}
+			<!--
+			<p>
+				<time datetime="{{ service.date | machineDate }}">
+					<small>{{ service.date | readableDate }} by {{ metadata.author.name }}</small>
+				</time>
+			</p>
+			-->
+			{% if service.data.tags %}
+				<p>
+					{% for tag in service.data.tags %}
+		  			{%- if tag != "service" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

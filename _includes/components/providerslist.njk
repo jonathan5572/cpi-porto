@@ -1,0 +1,46 @@
+<section class="container">
+	{% for provider in providerslist | reverse %}
+		<article{% if provider.url == url %} data-current="current item"{% endif %} class="row mb-4">
+
+    <div class="col-12 col-md-4">
+		<img src="{{ provider.data.image }}" class="img-fluid">
+	</div>
+    <div class="col-12 col-md-8">
+			<h3 style="margin-bottom:5px">
+				<a href="{{ provider.url | url }}">
+					{% if provider.data.title %}
+						{{ provider.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if provider.data.tags %}
+				<p>
+					{% for tag in provider.data.tags %}
+		  			{%- if tag != "provider" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<span class="badge badge-secondary text-uppercase" style="padding: 5px;">{{ tag }}</span>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}				
+			{% if provider.data.summary %}
+				<p>
+					{{ provider.data.summary }}
+				</p>
+			{% endif %}
+
+			<a class="btn btn-primary" href="{{ provider.url | url }}">Read bio</a>
+			<!--
+			<p>
+				<time datetime="{{ provider.date | machineDate }}">
+					<small>{{ provider.date | readableDate }} by {{ metadata.author.name }}</small>
+				</time>
+			</p>
+			-->			
+	</div>
+
+		</article>
+	{% endfor %}
+</section>

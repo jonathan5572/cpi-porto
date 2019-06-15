@@ -5,6 +5,8 @@ const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("service", "layouts/service.njk");
+  eleventyConfig.addLayoutAlias("provider", "layouts/provider.njk");  
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -50,9 +52,19 @@ module.exports = function(eleventyConfig) {
       return item.inputPath.match(/^\.\/posts\//) !== null;
     });
   });
+  eleventyConfig.addCollection("services", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/services\//) !== null;
+    });
+  });  
+  eleventyConfig.addCollection("providers", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/providers\//) !== null;
+    });
+  });    
 
   // Don't process folders with static assets e.g. images
-  eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("static/");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
 

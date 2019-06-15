@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/provider.njk",
+    "permalink": "providers/{{ title | slug }}/index.html",
+    "tags": "provider"
+}

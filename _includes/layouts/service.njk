@@ -1,10 +1,20 @@
 ---
 layout: layouts/base.njk
-section: post
+section: service
 ---
+				<section class="page-header page-header-modern bg-color-primary page-header-md">
+					<div class="container">
+						<div class="row">
+							<!-- // Title -->
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1>{{ title }}</h1>
+							</div>
+						</div>
+					</div>
+				</section>
 
 <article class="container">
-  <h1>{{ title }}</h1>
+
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
@@ -18,7 +28,7 @@ section: post
   {% if tags %}
     <p>
     {% for tag in tags %}
-      {%- if tag != "post" -%}
+      {%- if tag != "service" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
@@ -29,5 +39,5 @@ section: post
 </article>
 
 <nav>
-  <a class="lead p-3 mb-0 d-block bg-light text-center text-dark text-decoration-none" href="{{ '/blog/' | url }}">&larr; Back to all blogs</a>
+  <a class="lead p-3 mb-0 d-block bg-light text-center text-dark text-decoration-none" href="{{ '/services/' | url }}">&larr; See all services</a>
 </nav>
