@@ -1,4 +1,50 @@
 <section class="container">
+
+<div class="row">
+	<div class="col">
+		<p class="lead">
+		Every physician office has a culture and personality all its own.
+		Ours is one of friendly assistance and personal attention.
+		Because a healing environment has everything to do with people.
+		Our office team has worked together well for many years.
+		And each member of our staff is committed to helping you
+		feel better.
+		</p>
+
+	</div>
+</div>
+
+<div class="featured-boxes featured-boxes-style-8">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="featured-box featured-box-primary">
+									<div class="box-content p-5">
+										<div class="row">
+											<div class="col">
+												<h2 class="font-weight-normal text-6">We offer many services at CPI, including</h2>
+												<p>Outpatient pulmonary care • Sleep center testing • Sleep therapy • Pulmonary function testing (PFT) lab • Respiratory therapy • Intensive care unit (ICU) care with intensivists and pulmonologists • Internal medicine with board-certified hospitalists</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="featured-box featured-box-primary">
+									<div class="box-content p-5">
+										<div class="row">
+											<div class="col">
+												<h2 class="font-weight-normal text-6">We treat a variety of conditions, including</h2>
+												<p>Abnormal chest x-ray or chest CT scan • Abnormal TB skin test • Asthma • Chest pain • Chronic cough • Chronic obstructive pulmonary disease (chronic bronchitis and emphysema) • Pneumonia • Pulmonary fibrosis • Pulmonary hypertension • Sleep apnea • Shortness of breath</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<h2>Our services include:</h2>
+
 	{% for service in serviceslist | reverse %}
 		<article{% if service.url == url %} data-current="current item"{% endif %} class="row mb-4">
 		<div class="col">
