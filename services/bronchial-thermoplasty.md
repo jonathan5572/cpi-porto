@@ -19,12 +19,12 @@ Contact us today to schedule your Bronchial Thermoplasty consultation with Dr. K
 <div class="row">
   <div class="col-12 col-md-6 mb-3 mb-md-0">
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/s9i4NSrE_w4?showinfo=0&amp;wmode=opaque"></iframe>
+      <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/s9i4NSrE_w4?showinfo=0&amp;wmode=opaque"></iframe>
     </div>
   </div>
   <div class="col-12 col-md-6">
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/tNC5BA2how0?showinfo=0&amp;wmode=opaque"></iframe>
+      <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/tNC5BA2how0?showinfo=0&amp;wmode=opaque"></iframe>
     </div>
   </div>  
 </div>
