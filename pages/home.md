@@ -7,14 +7,13 @@ navtitle: Home
 tags:
   - nav
 ---
-# Welcome
+<h2 class="font-weight-semibold mb-1">About us</h2>
+<p class="lead font-weight-normal">Why we are here</p>
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+Working in close partnership with patients, their families and other health professionals in one of our strengths at Colorado Pulmonary Intensivists. Whether we are providing care in the Intensive Care Unit at Littleton Adventist Hospital or seeing patients in our office to manage their pulmonary concerns—we do it as a team.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+*With respect.*
+*With compassion.*
+*With a deep commitment to the best possible outcome.*
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+**That’s why we’re here.**

@@ -1,7 +1,7 @@
 ---
 title: Intensive Care Unit
 summary: Littleton Adventist Hospital is recognized as a premier provider of health care in the south metro Denver area. Its intensive care unit (ICU) is staffed and equipped to provide continuous, comprehensive care for those who are critically ill as the result of injury, illness or surgery.
-date: 2015-01-01
+date: 2015-01-05
 tags:
   - service
 ---

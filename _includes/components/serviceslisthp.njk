@@ -1,8 +1,10 @@
+<section class=" border-0 section">
 <section class="container">
-	{% for service in serviceslist | reverse %}
-		<article{% if service.url == url %} data-current="current item"{% endif %} class="row mb-4">
-		<div class="col">
-			<h3 class="mb-1">
+<h2 class="font-weight-semibold mb-3">Services</h2>
+<div class="row">
+	{% for service in serviceslisthp | reverse %}
+		<article{% if service.url == url %} data-current="current item"{% endif %} class="col-12 col-md-6">
+			<h4 class="mb-2">
 				<a href="{{ service.url | url }}">
 					{% if service.data.title %}
 						{{ service.data.title }}
@@ -10,13 +12,14 @@
 						Untitled
 					{% endif %}
 				</a>
-			</h3>
+			</h4>
 			{% if service.data.summary %}
 				<p>
 					{{ service.data.summary }}
 				</p>
 			{% endif %}
-		</div>
 		</article>
 	{% endfor %}
+</div>	
+</section>
 </section>

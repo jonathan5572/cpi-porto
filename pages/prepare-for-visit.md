@@ -2,6 +2,7 @@
 title: Prepare for visit
 date: 2017-01-03
 permalink: /prepare-for-visit/index.html
+image: /static/img/gallery-4.jpg
 navtitle: Prepare for visit
 summary: What you need to know before your visit
 tags:

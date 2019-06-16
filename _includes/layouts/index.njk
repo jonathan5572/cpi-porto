@@ -100,16 +100,23 @@
 							</a>
 						</div>
 					</div>
-					<div class="row mt-5 mb-5 pt-3 pb-3">
+					<div class="row mt-0 mt-md-5 pt-3 pb-3">
 						<div class="col-md-8 layoutContent">
 							{{ layoutContent | safe }}
 						</div>
 						<div class="col-md-4">
-							<img src="img/demos/medical/gallery/gallery-1.jpg" alt class="img-fluid box-shadow-custom" /> 
+							<img src="static/img/gallery-1.jpg" alt class="img-fluid box-shadow-custom" /> 
 						</div>
 					</div>
 				</div>
 			</section>
+
+{% set serviceslisthp = collections.services %}
+{% include "components/serviceslisthp.njk" %}
+
+{% set resourceslist = collections.resources %}
+{% include "components/resourceslist.njk" %}
+
 		</main>
 		{% include "components/footer.njk" %}
 	</div>
