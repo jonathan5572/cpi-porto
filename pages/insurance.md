@@ -1,7 +1,8 @@
 ---
 title: Insurance
-date: 2017-01-01T00:00:00.000Z
+date: 2017-01-02
 permalink: /insurance/index.html
+image: /static/img/gallery-2.jpg
 navtitle: Insurance
 tags:
   - resources

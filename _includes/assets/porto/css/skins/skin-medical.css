@@ -3694,8 +3694,8 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	html #header .header-nav:not(.header-nav-line):not(.header-nav-links) .header-nav-main nav > ul:not(:hover) > li.dropdown-full-color.dropdown-secondary > a.active {
-		background: #2d529f;
-		color: #FFF;
+		color: #2d529f;
+		background-color: inherit;
 	}
 
 	html #header .header-nav-line .header-nav-main nav > ul > li.dropdown-full-color.dropdown-secondary a:focus,

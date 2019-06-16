@@ -2,20 +2,33 @@
 	{% for resource in resourceslist | reverse %}
 		<article class="row mb-4">
 		<div class="col">
-			<h3>
-				<a href="{{ resource.url | url }}">
+
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{{ resource.data.image }}" class="card-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">
 					{% if resource.data.title %}
 						{{ resource.data.title }}
 					{% else %}
 						Untitled
 					{% endif %}
-				</a>
-			</h3>
+		</h5>
 			{% if resource.data.summary %}
-				<p>
+				<p class="card-text">
 					{{ resource.data.summary }}
 				</p>
 			{% endif %}
+			<a href="{{ resource.url | url }}" class="btn btn-primary">View more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 			</div>
 		</article>
 	{% endfor %}

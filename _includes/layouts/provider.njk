@@ -15,12 +15,6 @@ section: provider
 
 <article class="container">
 
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
-    </small>
-  </p>
-
   <div class="row">
     <div class="col-12 col-md-4">
       <img src="{{ image }}" class="img-fluid">
@@ -31,7 +25,7 @@ section: provider
       </div>    
     </div>
   </div>
-
+<!--
   {% if tags %}
     <p>
     {% for tag in tags %}
@@ -42,9 +36,9 @@ section: provider
     {% endfor %}
     </p>
   {% endif %}
-
+-->
 </article>
 
-<nav>
+<nav class="mt-5">
   <a class="lead p-3 mb-0 d-block bg-light text-center text-dark text-decoration-none" href="{{ '/providers/' | url }}">&larr; See all Providers</a>
 </nav>

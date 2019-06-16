@@ -1,6 +1,6 @@
 ---
 title: Prepare for visit
-date: 2017-01-01T00:00:00.000Z
+date: 2017-01-03
 permalink: /prepare-for-visit/index.html
 navtitle: Prepare for visit
 summary: What you need to know before your visit
