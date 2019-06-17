@@ -1,7 +1,8 @@
 ---
-title: 'Kelly E. Greene, MD'
-date: 2015-01-01T00:00:00.000Z
+title: Kelly E. Greene, MD
+date: 2015-01-11
 image: /static/img/greene.jpg
+permalink: providers/kelly-e-greene/index.html
 summary: >-
   Dr. Green serves as ICU co-director at Littleton Adventist Hospital. She is
   board certified in Internal Medicine and holds subspecialty certification in

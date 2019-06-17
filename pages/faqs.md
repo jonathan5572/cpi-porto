@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 date: 2017-01-01
 permalink: /faqs/index.html
-image: /static/img/gallery-3.jpg
+image: /static/img/3.jpg
 navtitle: Frequently Asked Questions
 summary:
 tags:

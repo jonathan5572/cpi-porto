@@ -35,3 +35,9 @@ To fill out and submit these forms online, you must first log in to the [Patient
     </div>
   </div>
 </div>
+
+Late Cancellation Policy
+
+We understand that there may be circumstances that may prohibit you from making your appointment. If a situation arises and you will not be able to come in for your appointment, please notify our office as early as possible so that you are not charged a cancellation fee. We require a 24-hour notice of cancellation for office visits. If you do not show up for your appointment and have not cancelled prior to the specified time, you will be charged a cancellation fee. You or an authorized person can cancel for your visit. We have limited appointment availability and we may not be able to reschedule you for at least a month. Please note that cancellation fees are your responsibility and cannot be billed to your insurance company.
+
+There is a $50.00 late cancellation fee for all office visits cancelled with less than 24-hour notice. You will not be able to reschedule until your fee is paid.

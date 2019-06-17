@@ -1,8 +1,9 @@
 ---
 title: Joshua Portnoy, MD
 summary: A co-director of Littleton Adventist Hospital's ICU, Dr. Portnoy is board certified in Internal Medicine, Pulmonary Medicine and Critical Care.
-date: 2015-01-01
+date: 2015-01-10
 image: /static/img/portnoy.jpg
+permalink: providers/joshua-portnoy/index.html
 tags:
   - pulmonary
   - critical care
