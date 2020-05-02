@@ -8,8 +8,7 @@ tags:
 ---
 You may print these forms and mail them in to:
 
-Colorado Pulmonary Intensivists, Inc. 15 W. Dry Creek Circle
-Littleton, CO 80120
+Colorado Pulmonary Intensivists, Inc. 15 W. Dry Creek Circle Littleton, CO 80120
 
 <div class="row mb-4">
   <div class="col-sm-6">
@@ -40,23 +39,23 @@ To fill out your forms **online**, please use the following links:
 
 ##### Cancellation/No Show/Late Policy
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_late_and_noshow_policy>[](https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_hipaa)" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_late_and_noshow_policy" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 ##### Release of Records Authorization
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/roiauthorization>[](https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_late_and_noshow_policy)" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/roiauthorization" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 ##### New Patient Registration Form
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/new_patient_registration_form>[](https://colorado-pulmonary-intensivists.formstack.com/forms/roiauthorization)" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/roiauthorization" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 ##### Epworth Sleepiness Scale
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/epworth_scale>[](https://colorado-pulmonary-intensivists.formstack.com/forms/new_patient_registration_form)" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/new_patient_registration_form" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 ##### Sleep Questionnaire
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_sleep_questionnaire_a>[](https://colorado-pulmonary-intensivists.formstack.com/forms/epworth_scale)" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_sleep_questionnaire_a" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 Late Cancellation Policy
 
