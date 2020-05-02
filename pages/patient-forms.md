@@ -35,7 +35,7 @@ To fill out your forms **online**, please use the following links:
 
 ##### HIPAA Consent Form
 
-<a href="<https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_hipaa>" target="_blank" class="btn btn-outline-primary">Online form</a>
+<a href="https://colorado-pulmonary-intensivists.formstack.com/forms/cpi_hipaa" target="_blank" class="btn btn-outline-primary">Online form</a>
 
 ##### Cancellation/No Show/Late Policy
 
